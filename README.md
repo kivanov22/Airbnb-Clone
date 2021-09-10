@@ -1,29 +1,85 @@
-# Next.js + Tailwind CSS Example
+<h1 align="center">
+  <a href="https://airbnb-clone-krisko512-gmailcom.vercel.app">
+    <img width="200px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Airbnb_Logo_B%C3%A9lo.svg/2560px-Airbnb_Logo_B%C3%A9lo.svg.png" alt="Airbnb Logo" />
+  </a>
+  <br />
+  Airbnb-clone
+  <br />
+</h1>
 
-This example shows how to use [Tailwind CSS](https://tailwindcss.com/) [(v2.2)](https://blog.tailwindcss.com/tailwindcss-2-2) with Next.js. It follows the steps outlined in the official [Tailwind docs](https://tailwindcss.com/docs/guides/nextjs).
+<h4 align="center">
+   Airbnb Clone created with Next.JS.
+</h4>
 
-It uses the new [`Just-in-Time Mode`](https://tailwindcss.com/docs/just-in-time-mode) for Tailwind CSS.
+<p align="center">
+   <img src="https://airbnb-clone-krisko512-gmailcom.vercel.app" alt="Release" />
+   <img src="https://airbnb-clone-krisko512-gmailcom.vercel.app" alt="Deployment" />
+   <img src="https://img.shields.io/github/license/kivanov22/Airbnb-Clone" alt="License" />
+</p>
 
-## Preview
+<p align="center">
+  <a href="#demo">Demo</a> •
+  <a href="#key-features">Key Features</a> •
+  <a href="#key-technologies">Key Technologies</a> •
+  <a href="#setup">Setup</a> •
+  <a href="#support">Support</a> •
+  <a href="#license">License</a>
+</p>
 
-Preview the example live on [StackBlitz](http://stackblitz.com/):
+![Home Screenshot](public/static/screenshots/homepage.png?raw=true "Home Page")
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/vercel/next.js/tree/canary/examples/with-tailwindcss)
+---
 
-## Deploy your own
+![Results Screenshot](public/static/screenshots/resultspage.png?raw=true "Results Page")
 
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example):
+---
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/next.js/tree/canary/examples/with-tailwindcss&project-name=with-tailwindcss&repository-name=with-tailwindcss)
+## Demo
 
-## How to use
+Here is a working live demo [here](https://airbnb-clone-krisko512-gmailcom.vercel.app/)
 
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init) or [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/) to bootstrap the example:
+---
 
-```bash
-npx create-next-app --example with-tailwindcss with-tailwindcss-app
-# or
-yarn create next-app --example with-tailwindcss with-tailwindcss-app
-```
+## Key Features
 
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
+- Calendar Picker
+- Interactive Map
+- Real world locations
+- Elegant Design
+
+---
+
+## Key Technologies
+
+- Next.JS
+- Mapbox
+- TailwindCSS
+- Mobx
+- Typescript
+
+---
+
+## Setup
+
+Clone this repo to your desktop and run `npm install` to install all the dependencies.
+Then run `npm dev` to start the application locally
+
+Change the .env.example file to .env.local and fill the empty fields
+
+---
+
+## Support
+
+Whether you use this project, have learned something from it, or just like it, please consider supporting it by buying me a coffee, so I can dedicate more time on open-source projects like this :)
+
+<a href="https://www.buymeacoffee.com/kivanov" target="_blank">
+  <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" height="60px" width="217px" />
+</a>
+
+---
+
+## License
+
+> You can check out the full license [here](https://github.com/MartsTech/airbnb-clone/blob/main/LICENSE)
+
+This project is licensed under the terms of the **MIT** license
