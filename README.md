@@ -26,11 +26,11 @@
   <a href="#license">License</a>
 </p>
 
-![Home Screenshot](public/static/screenshots/homepage.png?raw=true "Home Page")
+![Home Screenshot](public/screenshots/homepage.png?raw=true "Home Page")
 
 ---
 
-![Results Screenshot](public/static/screenshots/resultspage.png?raw=true "Results Page")
+![Results Screenshot](public/screenshots/resultspage.png?raw=true "Results Page")
 
 ---
 
@@ -80,6 +80,6 @@ Whether you use this project, have learned something from it, or just like it, p
 
 ## License
 
-> You can check out the full license [here](https://github.com/MartsTech/airbnb-clone/blob/main/LICENSE)
+> You can check out the full license [here](https://github.com/kivanov22/Airbnb-Clone/blob/main/LICENSE)
 
 This project is licensed under the terms of the **MIT** license
