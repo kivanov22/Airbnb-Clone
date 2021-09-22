@@ -6,7 +6,7 @@ import {
     UsersIcon,
     GlobeAltIcon
 } from '@heroicons/react/solid';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import 'react-date-range/dist/styles.css'; // main style file
 import 'react-date-range/dist/theme/default.css'; // theme css file
 import { DateRangePicker } from 'react-date-range';
@@ -19,8 +19,8 @@ function Header({ placeholder }) {
     const [endDate, setEndDate] = useState(new Date());
     const [noOfGuests, setNoOfGuests] = useState(1);
     const router = useRouter();
-
-
+    const [show, setShow] = useState(1);
+    const [handleShow, setHandleShow] = useState(false);
 
     const handleSelect = (ranges) => {
         setStartDate(ranges.selection.startDate);
@@ -48,12 +48,26 @@ function Header({ placeholder }) {
         });
     }
 
+    useEffect(() => {
+        const listener = () => {
+           if (window.scrollY > 80) {
+             setHandleShow(true); 
+             } else 
+             setHandleShow(false); 
+           }; 
+           window.addEventListener("scroll", listener);
+           
+           return () => { 
+             window.removeEventListener("scroll", listener); 
+           }; 
+         }, []);
+
     return (
-        <header className="sticky top-0 z-50 grid grid-cols-3 bg-white shadow-md py-5 p-5 md:px-10">
+        <header className={`fixed top-0 z-40 grid w-screen grid-cols-1  transition duration-100 ease-out p-5 ${handleShow ? "bg-white shadow-md" : ""} md:grid-cols-3  z-50 grid grid-flow-row grid-cols-2 p-5 md:px-10 sm:grid-cols-3`}>
             {/* left section */}
             <div onClick={() => router.push('/')} className="relative flex items-center h-10 cursor-pointer my-auto">
                 <Image
-                    src="https://links.papareact.com/qd3"
+                    src="https://upload.wikimedia.org/wikipedia/commons/6/69/Airbnb_Logo_B%C3%A9lo.svg"//https://links.papareact.com/qd3
                     layout="fill"//max space of container
                     objectFit="contain" //stops from changing aspect ratio
                     objectPosition="left"
@@ -71,6 +85,7 @@ function Header({ placeholder }) {
             </div>
 
             {/* right section */}
+            {/* div hidden md:flex */}
             <div className="flex items-center space-x-4 justify-end text-gray-500">
                 <p className="hidden md:inline cursor-pointer">Become a host</p>
                 <GlobeAltIcon className="h-6" />
