@@ -11,26 +11,21 @@
    Airbnb Clone created with Next.JS.
 </h4>
 
-<p align="center">
-   <img src="https://airbnb-clone-krisko512-gmailcom.vercel.app" alt="Release" />
-   <img src="https://airbnb-clone-krisko512-gmailcom.vercel.app" alt="Deployment" />
-   <img src="https://img.shields.io/github/license/kivanov22/Airbnb-Clone" alt="License" />
-</p>
 
-<p align="center">
-  <a href="#demo">Demo</a> •
-  <a href="#key-features">Key Features</a> •
-  <a href="#key-technologies">Key Technologies</a> •
-  <a href="#setup">Setup</a> •
-  <a href="#support">Support</a> •
-  <a href="#license">License</a>
-</p>
 
-![Home Screenshot](public/screenshots/homepage.png?raw=true "Home Page")
+![Homepage Screenshot](public/screenshots/Airbnb-homepage.png?raw=true "Homepage Page")
 
 ---
 
-![Results Screenshot](public/screenshots/resultspage.png?raw=true "Results Page")
+![Homepage Lower Screenshot](public/screenshots/Airbnb-homepage-lower.png?raw=true "Homepage Lower Page")
+
+---
+
+![Search Screenshot](public/screenshots/Airbnb-search.png?raw=true "Search Page")
+
+---
+
+![Results Screenshot](public/screenshots/Airbnb-results.png?raw=true "Results Page")
 
 ---
 
@@ -66,20 +61,10 @@ Then run `npm dev` to start the application locally
 
 Change the .env.example file to .env.local and fill the empty fields
 
----
-
-## Support
-
-Whether you use this project, have learned something from it, or just like it, please consider supporting it by buying me a coffee, so I can dedicate more time on open-source projects like this :)
-
-<a href="https://www.buymeacoffee.com/kivanov" target="_blank">
-  <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" height="60px" width="217px" />
-</a>
 
 ---
 
 ## License
-
 
 
 This project is licensed under the terms of the **MIT** license
